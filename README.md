@@ -5,7 +5,6 @@
 
 ./go-getter-example "/tmp/go-getter-http" "https://github.com/svennela/azure-storage-example.git"
 
-./go-getter-example "/tmp/go-getter-http" "git@github.com:svennela/azure-storage-example.git"
 
 ## GCP - GCS 
 
