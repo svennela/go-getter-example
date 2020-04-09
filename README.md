@@ -9,11 +9,15 @@
 
 ## GCP - GCS 
 
+export GOOGLE_CREDENTIALS=$(cat creds.json)
+
 ./go-getter-example "/tmp/go-getter-gcp" "gs://gs-bucketname/filename"
+
 
 ## AWS - S3 
 
 AWS_ACCESS_KEY_ID
+
 AWS_SECRET_ACCESS_KEY
 
 ./go-getter-example "/tmp/go-getter-s3" "bucketname.s3.amazonaws.com/filename"
